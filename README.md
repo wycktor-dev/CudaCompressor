@@ -1,20 +1,16 @@
-## About the Project
-**CudaCompressor** is a Bash script designed to automate the compression of video files in directories and subdirectories. It leverages NVIDIA's NVENC encoder for fast and efficient video compression while maintaining good video quality.
+# CudaCompressor
 
-The script also includes:
-- Automatic detection of already processed files to avoid redundancy.
-- Real-time logs and progress updates during video compression.
-- A control mechanism to stop the script safely.
+**CudaCompressor** is a Bash script that automates the compression of video files using NVIDIA's NVENC encoder for fast, efficient processing.
 
 ---
 
 ## Features
-- **Recursive Compression**: It processes all videos in a directory and its subdirectories (the main reason I created this script).
-- **NVENC Support**: Utilizes GPU acceleration for faster processing.
-- **Automatic Logs**: Tracks all operations in a log file.
-- **File Control**: Safely stops the script using a control file or via interruption.
-- **Customizable Compression Settings**: Easily modify FFmpeg parameters for bitrate, presets, and more.
-
+- **Recursive Compression**: Processes videos in a directory and subdirectories (the main reason I created this script).
+- **NVENC Support**: GPU acceleration for faster compression.
+- **Automatic Logs**: Tracks operations in a log file.
+- **File Control**: Safely stops the script using a control file or interruption.
+- **Customizable Settings**: Modify FFmpeg parameters for bitrate and presets.
+  
 ---
 
 ## System Requirements
@@ -99,5 +95,4 @@ Contributions are welcome! I originally created this script to address an issue 
 ---
 
 ## Disclaimer
-This script assumes a functional NVIDIA GPU with NVENC support. For non-NVIDIA systems, you may need to adapt the script to use CPU encoding.
-
+This script requires a functional NVIDIA GPU with NVENC support. For non-NVIDIA systems, adapt the script for CPU encoding.
