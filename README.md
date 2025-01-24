@@ -9,7 +9,7 @@ The script also includes:
 ---
 
 ## Features
-- **Recursive Compression**: The first reason I thought to create this script. It processes all videos in a directory and its subdirectories.
+- **Recursive Compression**: It processes all videos in a directory and its subdirectories (the main reason I created this script).
 - **NVENC Support**: Utilizes GPU acceleration for faster processing.
 - **Automatic Logs**: Tracks all operations in a log file.
 - **File Control**: Safely stops the script using a control file or via interruption.
@@ -93,9 +93,8 @@ Navigate to the directory where the script is located and execute:
 
 ---
 
-
 ## Contributing
-Contributions are welcome! I've created this script just to solve an issue from another compressing software that was annoying me. Feel free to submit issues or pull requests to improve the script.
+Contributions are welcome! I originally created this script to address an issue I encountered with another compression tool that was frustrating to use. Feel free to submit issues or pull requests to help improve the script.
 
 ---
 
