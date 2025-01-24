@@ -19,7 +19,7 @@ The script also includes:
 
 ## System Requirements
 ### Operating System
-- Ubuntu 22.04 or later (or any compatible Linux-based system). Compa
+- Ubuntu 22.04 or later (or any compatible Linux-based system).
 
 ### Software Dependencies
 - **FFmpeg**: Install FFmpeg with NVENC support.
